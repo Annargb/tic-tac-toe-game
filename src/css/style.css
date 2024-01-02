@@ -4,8 +4,6 @@ body {
   background: linear-gradient(45deg, #08041d, #200852);
   background-attachment: fixed;
   font-family: 'Roboto', sans-serif;
-  /* display: flex;
-  flex-direction: column; */
   align-items: center;
   color: #fff;
 }
@@ -23,6 +21,9 @@ ul {
   font-size: 12px;
 }
 
+.wrapper {
+  margin: 40px;
+}
 .board {
   margin: 0 auto;
   display: flex;

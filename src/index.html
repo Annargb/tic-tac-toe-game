@@ -8,48 +8,50 @@
     <title>Tic-tac-toe-game</title>
   </head>
   <body>
-    <h1 class="js-title title">Who will win?</h1>
-    <button type="button" class="reset-button js-button">Reset game</button>
-    <div class="sound-wrapper">
-      <h2 class="sound-title">Sound</h2>
+    <div class="wapper">
+      <h1 class="js-title title">Who will win?</h1>
+      <button type="button" class="reset-button js-button">Reset game</button>
+      <div class="sound-wrapper">
+        <h2 class="sound-title">Sound</h2>
 
-      <div class="button-cover">
-        <div class="button r" id="button-1">
-          <input type="checkbox" class="checkbox" />
-          <div class="knobs"></div>
-          <div class="layer"></div>
+        <div class="button-cover">
+          <div class="button r" id="button-1">
+            <input type="checkbox" class="checkbox" />
+            <div class="knobs"></div>
+            <div class="layer"></div>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="counter-wrapper">
-      <h2 class="counter-title">Win counter:</h2>
+      <div class="counter-wrapper">
+        <h2 class="counter-title">Win counter:</h2>
 
-      <p class="counter-text total">
-        Total games: <span class="js-counter-total counter">0</span>
-      </p>
-      <ul>
-        <li class="counter-item">
-          <p class="counter-text">
-            Won X:
-            <span class="js-counter-x"><span>0</span> times.</span>
-          </p>
-        </li>
-        <li class="counter-item">
-          <p class="counter-text">
-            Won O:
-            <span class="js-counter-o"><span>0</span> times</span>
-          </p>
-        </li>
-        <li class="counter-item">
-          <p class="counter-text">
-            Draw:
-            <span class="js-counter-draw"><span>0</span> times.</span>
-          </p>
-        </li>
-      </ul>
+        <p class="counter-text total">
+          Total games: <span class="js-counter-total counter">0</span>
+        </p>
+        <ul>
+          <li class="counter-item">
+            <p class="counter-text">
+              Won X:
+              <span class="js-counter-x"><span>0</span> times.</span>
+            </p>
+          </li>
+          <li class="counter-item">
+            <p class="counter-text">
+              Won O:
+              <span class="js-counter-o"><span>0</span> times</span>
+            </p>
+          </li>
+          <li class="counter-item">
+            <p class="counter-text">
+              Draw:
+              <span class="js-counter-draw"><span>0</span> times.</span>
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div class="js-board board"></div>
     </div>
-    <div class="js-board board"></div>
     <script type="module" src="./js/index.js"></script>
   </body>
 </html>
