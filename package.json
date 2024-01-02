@@ -18,7 +18,8 @@
     "url": "https://github.com/Annargb/tic-tac-toe-game/issues"
   },
   "dependencies": {
-    "modern-normalize": "^1.1.0"
+    "modern-normalize": "^1.1.0",
+    "tone": "^14.7.77"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
